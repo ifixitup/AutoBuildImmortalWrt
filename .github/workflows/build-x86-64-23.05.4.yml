@@ -43,7 +43,7 @@ jobs:
         uses: softprops/action-gh-release@v2.1.0
         with:
           tag_name: Autobuild-x86-64
-          name: ImmortWrt-x86-64-efi_$(date '+%Y%m%d-%H%M')
+          name: ImmortWrt-x86-64-efi
           body_path: ${{ github.workspace }}/info.md
           draft: false
           prerelease: false
